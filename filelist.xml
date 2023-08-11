@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Showdoze Tweaks" path="%ModDir%/filelist.xml" corepackage="false" gameversion="0.9.1.1">
+  <Item file="%ModDir%/Suits.xml" />
+  <Item file="%ModDir%/Override.xml" />
+  <Text file="%ModDir%/Descriptions.xml" />
+</contentpackage>
