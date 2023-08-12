@@ -218,13 +218,13 @@
     </Fabricate>
     <InventoryIcon name="Combat Diving Suit Icon" texture="%ModDir%/DivingSuit_Combat_Map.png" sourcerect="742,130,135,127" origin="0.5,0.5" />
     <Sprite name="Combat Diving Suit Item" texture="%ModDir%/DivingSuit_Combat_Map.png" sourcerect="445,0,146,120" depth="0.55" origin="0.5,0.5" />
-    <ContainedSprite name="Combat Diving Suit In Vertical Locker" allowedcontainertags="divingsuitcontainervertical" texture="%ModDir%/DivingSuit_Combat_Map.png" sourcerect="609,0,87,190" depth="0.55" origin="0.5,0.5" />
-    <ContainedSprite name="Combat Diving Suit Behind Window" allowedcontainertags="divingsuitcontainerwindow" texture="%ModDir%/DivingSuit_Combat_Map.png" sourcerect="934,3,92,253" depth="0.55" origin="0.0,0.0" />
-    <ContainedSprite name="Combat Diving Suit In Horizontal Locker" allowedcontainertags="divingsuitcontainerhorizontal" texture="%ModDir%/DivingSuit_Combat_Map.png" sourcerect="446,191,225,66" depth="0.55" origin="0.6,0.5" />
+	  <ContainedSprite name="Combat Diving Suit In Vertical Locker" allowedcontainertags="divingsuitcontainervertical" texture="Content/Items/Diving/Combat_DivingSuit_Items.png" sourcerect="181,0,70,192" depth="0.55" origin="0.5,0.5" />
+	  <ContainedSprite name="Combat Diving Suit Behind Window" allowedcontainertags="divingsuitcontainerwindow" texture="Content/Items/Containers/containers.png" sourcerect="215,379,80,207" depth="0.55" origin="-0.12,-0.14" />
+	  <ContainedSprite name="Combat Diving Suit In Horizontal Locker" allowedcontainertags="divingsuitcontainerhorizontal" texture="Content/Items/Diving/Combat_DivingSuit_Items.png" sourcerect="0,193,230,63" depth="0.55" origin="0.6,0.5" />
     <Body radius="45" width="34" density="20" />
     <Wearable slots="OuterClothes" msg="ItemMsgEquipSelect" displaycontainedstatus="true" canbeselected="false" canbepicked="true" pickkey="Select">
       <sprite name="Combat Diving Suit Helmet Wearable" texture="%ModDir%/DivingSuit_Combat_Map.png" sourcerect="742,2,102,110" origin="0.5,0.5" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.65" hideotherwearables="true">
-        <LightComponent range="200.0" lightcolor="220,150,0,255" powerconsumption="10" IsOn="true" allowingameediting="false">
+        <LightComponent range="200.0" lightcolor="0,150,200,255" powerconsumption="10" IsOn="true" allowingameediting="false">
           <StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" setvalue="true">
             <Conditional IsDead="false" />
           </StatusEffect>
