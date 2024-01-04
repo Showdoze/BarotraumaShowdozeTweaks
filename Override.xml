@@ -1401,10 +1401,7 @@
     <PreferredContainer primary="armcab" amount="1" spawnprobability="0.2"/>
     <PreferredContainer secondary="secarmcab,weaponholder"/>
     <PreferredContainer secondary="wreckmedcab,abandonedmedcab,wreckarmcab,abandonedarmcab" amount="1" spawnprobability="0.2" />
-    <Price baseprice="500" sold="true">
-      <Price storeidentifier="merchantresearch" multiplier="1" />
-      <Price storeidentifier="merchantmilitary" multiplier="0.9" />
-    </Price>
+    <Price baseprice="500" sold="true"/>
     <Deconstruct time="10">
       <Item identifier="titaniumaluminiumalloy" />
       <Item identifier="plastic" />
